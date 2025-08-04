@@ -5,7 +5,7 @@ function UserMapFunction({ user }) {
     <>
       <p>USERMAPFUNCTION</p>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-         width: '8"0%', height: '100%', border: '1px solid black',borderRadius: '10px', padding: '10px', margin: '10px'
+         width: '80%', height: '100%' , border: '1px solid black',borderRadius: '10px', padding: '10px', margin: '10px'
           }}> 
         <h2>{user.name}</h2>
         <h3>{user.email}</h3>
