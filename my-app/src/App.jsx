@@ -1,13 +1,16 @@
 import React from "react";
 import { useState } from "react";
-import MapFunction from "./Component1/MapFunction";
-import Clock from "./Component2/Clock";
-
+import Counter from "./Hooks/Counter";
 function App() {
   return (
     <> 
-      <h1>React Vite</h1>
-      <Clock />
+      <h1>SHIVAM RAJPUT</h1>
+      <Counter />
+      <div>
+        <imag src="https://picsum.photos/200/300" alt="pic" />
+        <h2>SHIVAM RAJPUT</h2>
+        <img src="https://picsum.photos/200/300" alt="pic" />
+      </div>
     </>
   );
 }
