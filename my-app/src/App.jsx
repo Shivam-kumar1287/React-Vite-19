@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import UnControls from "./Hooks/UnControls";
+import ParentChild from "./Hooks/ParentChild";
 function App() {
   return (
     <> 
       <h1>SHIVAM RAJPUT</h1>
-      <UnControls />
+      <ParentChild />
     </>
   );
 }
