@@ -25,3 +25,13 @@ function ForwordRef(props) {
   )
 }
 export default ForwordRef;
+
+/*
+afer react 19 this way 
+
+const UserInput(props)=>{
+    return (
+    <input type="text" ref={props.inputRef} />
+    )
+    }
+*/
