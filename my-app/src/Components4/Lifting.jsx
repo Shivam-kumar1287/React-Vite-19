@@ -1,6 +1,6 @@
 import { useState } from "react"
-import AddUser from "./Components4/AddUser";
-import DisplayUser from "./Components4/DisplayUser";
+import AddUser from "./AddUser";
+import DisplayUser from "./DisplayUser";
 
 function App() {
   const [user,setUser]=useState('')
@@ -11,5 +11,5 @@ function App() {
     </div>
 
   );
-  }
+}
 export default App;
