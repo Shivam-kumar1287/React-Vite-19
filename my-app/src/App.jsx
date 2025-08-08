@@ -1,13 +1,11 @@
 import { useState } from "react"
-import AddUser from "./Components4/AddUser";
-import DisplayUser from "./Components4/DisplayUser";
+import ArrayUpdate from "./Components4/Arrayupdate";
 
 function App() {
   const [user,setUser]=useState('')
   return (
     <div>
-     <AddUser setUser={setUser} />
-     <DisplayUser  user={user}/>
+    <ArrayUpdate />
     </div>
 
   );
