@@ -1,6 +1,9 @@
+import Custom1 from "./Hooks/Custom1";
+
 function App(){
     return (
         <>
+        <Custom1 />
         <div>
             <Data />
             <Data />
