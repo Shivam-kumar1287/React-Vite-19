@@ -1,18 +1,9 @@
-import Custom1 from "./Hooks/Custom1";
+import Collage from "./API/Collage";
 
 function App(){
     return (
         <>
-        <Custom1 />
-        <div>
-            <Data />
-            <Data />
-  <Data />
-            <Data />  <Data />
-            <Data />  <Data />
-            <Data />  <Data />
-            <Data />
-        </div>
+        <Collage />
         </>
     )
 }
