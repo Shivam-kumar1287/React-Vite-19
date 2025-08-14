@@ -1,17 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 3030;
-
-// Import routers
-const itemRouter = require('./Routes/jsroute');
-const bridRouter = require('./Routes/brids'); // Changed to match file name
+const itemRouter = require('./Routes/jsroute'); // Import the router
 
 // Middleware to parse JSON bodies
 app.use(express.json());
 
-// Use routers with base paths
+// Use the router for '/api' base path (recommended for API routes)
 app.use('/api', itemRouter);
-app.use('/birds', bridRouter); // Changed to '/birds' for consistency
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
